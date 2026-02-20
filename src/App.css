@@ -1,0 +1,9 @@
+:root{
+    --prime-blue: #00a0d6;
+    --dark-dull: #364f65;
+    --dark-blue: #191e26;
+    --light-prime-gray: #32373e;
+}
+body{
+    background-color: var(--dark-blue);
+}

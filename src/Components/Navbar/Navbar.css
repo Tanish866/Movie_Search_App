@@ -1,0 +1,24 @@
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--dark-dull);
+    padding: 1.5rem;
+    background-color: var(--dark-dull);
+    color: white;
+}
+.navbar-wrapper div:nth-child(1){
+    font-size: xx-large;
+    letter-spacing: 0.5rem;
+}
+.navbar-wrapper div:nth-child(2){
+    flex-basis: 65%;
+
+}
+.navbar-wrapper div:nth-child(2) input{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    background-color: var(--light-prime-gray);
+    color: white;
+}
