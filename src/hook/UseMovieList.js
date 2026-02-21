@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import searchMovie from "../apis/omdb";
+import { searchMovie } from "../apis/omdb";
 import axios from "axios";
 
 function UseMovieList(...args){

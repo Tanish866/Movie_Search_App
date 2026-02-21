@@ -43,3 +43,12 @@
     padding: 1rem;
     border-bottom: 1px solid black;
 }
+.auto-complete:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.movie-base-title{
+    color: white;
+    text-decoration: none;
+}
