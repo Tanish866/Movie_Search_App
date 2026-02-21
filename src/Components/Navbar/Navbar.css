@@ -32,7 +32,9 @@
     width: 100%;
     color: black;
     border-radius: 10px;
-    /* display: none; */
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid var(--light-prime-gray);
 }
 #result-list > .auto-complete{
     font-size: large;
