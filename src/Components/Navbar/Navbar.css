@@ -1,6 +1,7 @@
 .navbar-wrapper{
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
     border: 1px solid var(--dark-dull);
     padding: 1.5rem;
     background-color: var(--dark-dull);
@@ -21,4 +22,22 @@
     border: none;
     background-color: var(--light-prime-gray);
     color: white;
+}
+.search-bar{
+    position: relative;
+}
+#result-list{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+    /* display: none; */
+}
+#result-list > .auto-complete{
+    font-size: large;
+    letter-spacing: 0;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
 }
