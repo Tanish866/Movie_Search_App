@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 2rem; */
+    height: 100%;
 }
 
 .movie-details{
-    color: white;
+    color: var(--font-color-inverted);
     font-size: xx-large;
     display: flex;
     flex-direction: column;
@@ -15,9 +15,13 @@
     flex-basis: 50%;
 }
 .genre{
-    border: 1px solid var(--dark-dull);
-    background-color: var(--dark-dull);
+    color: white;
+    border: 1px solid var(--dull-blue);
+    background-color: var(--dull-blue);
     border-radius: 10px;
     margin-right: 1rem;
     padding: 10px 20px;
+}
+.genre:hover{
+    cursor: pointer;
 }

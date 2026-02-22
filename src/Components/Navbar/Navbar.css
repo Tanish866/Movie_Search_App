@@ -1,10 +1,10 @@
 .navbar-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* flex-direction: column; */
-    border: 1px solid var(--dark-dull);
+    border: 1px solid var(--dull-blue);
     padding: 1.5rem;
-    background-color: var(--dark-dull);
+    background-color: var(--dull-blue);
     color: white;
 }
 .navbar-wrapper div:nth-child(1){
@@ -21,16 +21,16 @@
     padding: 10px;
     border: none;
     background-color: var(--light-prime-gray);
-    color: white;
+    color: var(--font-color-inverted);
 }
 .search-bar{
     position: relative;
 }
 #result-list{
     position: absolute;
-    background-color: whitesmoke;
+    background-color: var(--light-prime-gray);
     width: 100%;
-    color: black;
+    color: var(--font-color-inverted);
     border-radius: 10px;
     max-height: 400px;
     overflow-y: scroll;
@@ -51,4 +51,13 @@
 .movie-base-title{
     color: white;
     text-decoration: none;
+}
+
+.theme-icon{
+    color: white;
+    margin-top: 8px;
+    font-size: x-large;
+}
+.theme-icon:hover{
+    cursor: pointer;
 }
