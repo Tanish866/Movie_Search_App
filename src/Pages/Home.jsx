@@ -16,6 +16,7 @@ function Home(){
                     movieList.map(movie =>
                         <MovieCard 
                             key={movie.imdbID}
+                            id={movie.imdbID}
                             {...movie}
                         />
                     )
