@@ -11,11 +11,15 @@
     color: var(--font-color);
     /* margin-left: 4rem; */
 }
+.movie-wrapper:hover{
+    cursor: pointer;
+}
 .movie-title{
     margin-top: 2rem;
     font-size: x-large;
     letter-spacing: 5px;
 }
+
 .movie-year, .movie-type{
     margin-top: 1rem;
     font-size: larger;
