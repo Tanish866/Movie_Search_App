@@ -1,29 +1,30 @@
 # 🎬 Movie Search App
 
-A React-based movie search application powered by the [OMDb API](https://www.omdbapi.com/).  
+A React-based movie search application powered by the OMDb API.  
 Users can search for movies and view detailed information such as plot, genre, cast, ratings, and poster images.
 
 ---
 
 ## 🚀 Live Demo
-[View Demo](https://your-demo-link.com) *(placeholder link)*
+https://your-demo-link.com *(replace with your live URL)*
 
 ---
 
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page Screenshot](./screenshots/home.png) *(replace with actual path)*
+![Home Page](./src/assets/home.png)
 
-### Movie Details Page
-![Movie Details Screenshot](./screenshots/details.png) *(replace with actual path)*
+### Search Results
+![Search Results](./src/assets/search-results.png)
 
----
+### Movie Details
+![Movie Details](./src/assets/movie-details.png)
 
 ## ✨ Features
 - 🔍 Search movies by title  
 - 📖 View detailed movie information (plot, genre, cast, ratings, poster)  
-- 📱 Responsive UI for all devices  
+- 📱 Fully responsive UI  
 - ⚡ Debounced search for better performance  
 - 🧩 Clean and modular React components  
 - 🚨 API error handling and loading states  
@@ -31,26 +32,30 @@ Users can search for movies and view detailed information such as plot, genre, c
 ---
 
 ## 🛠 Tech Stack
-- **React** (Vite / CRA)  
-- **JavaScript (ES6+)**  
-- **HTML5**  
-- **CSS3**  
-- **OMDb API**  
+- React (Vite / CRA)  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- OMDb API  
 
 ---
 
-## 📂 Folder Structure 
-src/
-├── apis/           # API utilities (e.g., omdb.js)
-├── Components/     # Reusable UI components (MovieCard, etc.)
-├── Navbar/         # Navigation bar component
-├── context/        # Context providers (ThemeContext)
-├── hook/           # Custom hooks (useDebounce, UseMovieList)
-├── Pages/          # Page-level components (Home, MovieDetails, Error)
-├── Routes/         # Routing setup (MainRoutes)
-├── App.jsx         # Root component
-├── main.jsx        # Entry point
-└── index.css       # Global styles
+## 📂 Folder Structure
+```plaintext
+movie-search-app/
+├── public/
+├── src/
+│   ├── components/        # Reusable React components
+│   ├── pages/             # Page-level components
+│   ├── hooks/             # Custom hooks (e.g., useDebounce)
+│   ├── services/          # API calls and utilities
+│   ├── styles/            # CSS modules or global styles
+│   ├── assets/            # Static assets
+│   ├── App.jsx            # Root component
+│   └── main.jsx           # Entry point
+├── .env                   # Environment variables (OMDb API key)
+├── package.json
+└── README.md
 
 ## ⚙️ Installation & Setup
 1. Clone the repository:
